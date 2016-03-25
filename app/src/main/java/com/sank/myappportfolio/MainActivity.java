@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this, "This button will launch " + spotifyStreamer.getText() + " app!", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_scores_app:
-                Toast.makeText(MainActivity.this, "This button will launch " + scoresApp.getText()+ " app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch " + scoresApp.getText()+ " !", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_library_app:
-                Toast.makeText(MainActivity.this, "This button will launch " + libraryApp.getText()+ " app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch " + libraryApp.getText()+ " !", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_build_it_bigger:
                 Toast.makeText(MainActivity.this, "This button will launch " + buildItBigger.getText()+ " app!", Toast.LENGTH_SHORT).show();
